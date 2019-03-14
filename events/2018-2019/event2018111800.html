@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="CUKS" content="Cambridge University Korean Society">
+        <meta name="author" content="Jae Hee Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>CUKS Cambridge University Korean Society</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- internal stylesheets -->
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header" id="navbar">
+            <div class="container">
+                <a href="../../index.html" class="logo">
+                    <img src="../../images/cuks_logo.jpg" style="width: 80px; height: 80px; transform: scale(1.5)">
+                    &nbsp;&nbsp;CUKS
+                </a>
+                <div class="header-right" style = "margin-top: 20px">
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../about_us.html">ABOUT US</a>
+                    <a class="active" href="../../events.html">EVENTS</a>
+                    <a href="../../sponsors.html">SPONSORS</a>
+                    <a href="../../jobs.html">JOBS</a>
+                    <a href="../../join_us.html">JOIN US</a>
+                    <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- body -->
+        <div id="content">
+            <div style="height: 500px; margin-bottom: 50px">
+                <img src="../../images/sample_event.jpg" style="height: 500px; width: 100%; overflow: hidden">
+            </div>
+            
+            <div class="container event-slide-all" style="margin-bottom: 50px; box-sizing: border-box">
+                
+                <div id="event-container" class="event-slide-container">
+                    <a class="event-slide-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="event-slide-next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
+                <div id="event-dot" style="text-align: center"></div>
+                
+            </div>
+            
+            <div class="container" style="margin-bottom: 50px">
+                <h2>CUKS Formal</h2>
+                <br>
+                <p>CUKS FORMAL!!</p>
+                <p>쿡스가 특별히 마련한 UG PG 가 모두 한자리에 모여 이야기 나누며 즐거운 시간을 보낼 수 있는 시간입니다! 좋은 사람들과 함께하는 맛있기로 소문난 Pembroke Formal은 더더욱 특별하겠죠? 선/후배들을 알아 갈 수 있는 좋은 기회이니 놓치지 마세요!!!</p>
+                <p>
+                    날자: 11월 6일 금요일 7시<br>
+                    장소: Pembroke college<br>
+                    가격: £ 14 for members, £20 for non-members<br>
+                    Sort code: 40-16-08 Account number: 42547139
+                </p>
+                <p>포말 티켓을 구매하고 싶으신 분들은 아래 링크로 들어가서 form을 꼭 작성해 주시고 going을 눌러주세요!!</p>
+                <p><a href="https://docs.google.com/a/cuks.org.uk/forms/d/1UGqgUiBV8MwuG80FGu1DzhOfMCOBZtylzDao2IYGksU/viewform">https://docs.google.com/a/cuks.org.uk/forms/d/1UGqgUiBV8MwuG80FGu1DzhOfMCOBZtylzDao2IYGksU/viewform</a></p>
+                <p>**포말 끝나고는 Sidney Sussex에서 재미난 2차파티가 마련되어 있습니다! 쿡스가 준비한 레크리에이션과 술^^이 있으니 아쉽게 포말을 참가하지 못하시는 분들도 함께하여주세요! 마지막에는 경품 추천도 있으니 늦어도 꼭 참석해주세요~ 2차파티는 9시에 Mong Hall, Sidney Sussex 시작할 예정입니다! **</p>
+                <p>
+                    # 포말 때 와인을 원하시는 분들은 따로 가져와주세요~ <br>
+                    # 쿡스 멤버십 신청을 아직 안하신 분들은 커미티 멤버를 통해 구매하실 수 있습니다~ <br>
+                    # 가운없으신분들은 그냥 오셔도 됩니다
+                </p>
+                <p>
+                    늦게오면 따로 앉아야 될수도 있으니 시간약속은 꼭 지켜주세요!<br>
+                    그럼 모두 금요일 7시 Pembroke College에서 만나요!
+                </p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+            &#169 Cambridge University Korean Society 2018
+            <span style="float: right">
+                <a href="https://www.facebook.com/groups/cuks.org.uk/">
+                    <i class="fa fa-facebook" style="font-size:24px;"></i>
+                </a>
+            </span>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="../../main.js"></script>
+        <script>window.onload = function() {slideAdder("20181118_CUKS_Formal", 12); showSlides(1); dotAdder(12);};</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

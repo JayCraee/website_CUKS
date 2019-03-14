@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="CUKS" content="Cambridge University Korean Society">
+        <meta name="author" content="Jae Hee Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>CUKS Cambridge University Korean Society</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- internal stylesheets -->
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header" id="navbar">
+            <div class="container">
+                <a href="../../index.html" class="logo">
+                    <img src="../../images/cuks_logo.jpg" style="width: 80px; height: 80px; transform: scale(1.5)">
+                    &nbsp;&nbsp;CUKS
+                </a>
+                <div class="header-right" style = "margin-top: 20px">
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../about_us.html">ABOUT US</a>
+                    <a class="active" href="../../events.html">EVENTS</a>
+                    <a href="../../sponsors.html">SPONSORS</a>
+                    <a href="../../jobs.html">JOBS</a>
+                    <a href="../../join_us.html">JOIN US</a>
+                    <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- body -->
+        <div id="content">
+            <div style="height: 500px; margin-bottom: 50px">
+                <img src="../../images/sample_event.jpg" style="height: 500px; width: 100%; overflow: hidden">
+            </div>
+            
+            <div class="container event-slide-all" style="margin-bottom: 50px; box-sizing: border-box">
+                
+                <div id="event-container" class="event-slide-container"></div>
+                
+                <div id="event-dot" style="text-align: center"></div>
+                
+            </div>
+            
+            <div class="container" style="margin-bottom: 50px">
+                <h2>Korea's Yesterday, Today and Tomorrow Lecture</h2>
+                <br>
+                <p>Yoo Jeong-bok, the Mayor of Incheon Metropolitan City, is a veteran administrator and politician in the Republic of Korea. He served as a Minister of Food, Agriculture and Forestry and a Minister of Security and Public Administration for the Korean government. He was also elected as a three term lawmaker of the National Assembly. He is now pioneering the prosperity of the nation.</p>
+                <p>Dr. Yoo's lecture is to introduce South Korea’s compressed economic growth for those who don’t know about the nation. In 20th century world history, South Korea is the only country, among the postwar Third World countries, that accomplished both industrialization and democratization simultaneously. South Korea has grown 247 times in per capita GDP in only a half century. It became the 7th nation to join the ranks of the "20-50 Club" (US$ 20,000 per capita GDP with over 50 million population) after Britain in 2012.</p>
+                <p>Based on his own experiences on the ground, the 30-year veteran public servant and politician will talk about the secrets behind achieving such remarkable growth in only about 50 years. His lecture focuses on Koreans’ education fever, school system and its flexible government economic policy which has enabled an economic growth to a level that western economies took hundreds of years to reach. Dr. Yoo will also discuss some problems caused by: a dwindling productive population; an aging society; and worsening income inequality, which many nations now face, and finally, he will present substantive solutions.</p>
+                <p>The views and opinions expressed by the speaker do not necessarily state or reflect those of the members of Cambrige University Korean Society and are not necessarily endorsed by the society.</p>
+                <p>Free entry for all. Refreshments provided. Booking is not required but please contact Mia Kim (pgvp@cuks.org.uk) if you are interested in coming. There might be Korean food served for the registered guests.</p>
+                <p>
+                    time: 6pm to 7.30pm Mon. 7th Dec. 2015<br>
+                    location: Trinity Hall, Cambridge
+                </p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+            &#169 Cambridge University Korean Society 2018
+            <span style="float: right">
+                <a href="https://www.facebook.com/groups/cuks.org.uk/">
+                    <i class="fa fa-facebook" style="font-size:24px;"></i>
+                </a>
+            </span>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="../../main.js"></script>
+        <script>window.onload = function() {slideAdder("20151207_Koreas_Yesterday_Today_and_Tomorrow", 1); showSlides(1);};</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

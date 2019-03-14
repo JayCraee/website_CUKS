@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="CUKS" content="Cambridge University Korean Society">
+        <meta name="author" content="Jae Hee Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>CUKS Cambridge University Korean Society</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- internal stylesheets -->
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header" id="navbar">
+            <div class="container">
+                <a href="../../index.html" class="logo">
+                    <img src="../../images/cuks_logo.jpg" style="width: 80px; height: 80px; transform: scale(1.5)">
+                    &nbsp;&nbsp;CUKS
+                </a>
+                <div class="header-right" style = "margin-top: 20px">
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../about_us.html">ABOUT US</a>
+                    <a class="active" href="../../events.html">EVENTS</a>
+                    <a href="../../sponsors.html">SPONSORS</a>
+                    <a href="../../jobs.html">JOBS</a>
+                    <a href="../../join_us.html">JOIN US</a>
+                    <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- body -->
+        <div id="content">
+            <div style="height: 500px; margin-bottom: 50px">
+                <img src="../../images/sample_event.jpg" style="height: 500px; width: 100%; overflow: hidden">
+            </div>
+            
+            <div class="container event-slide-all" style="margin-bottom: 50px; box-sizing: border-box">
+                
+                <div id="event-container" class="event-slide-container">
+                    <a class="event-slide-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="event-slide-next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
+                <div id="event-dot" style="text-align: center"></div>
+                
+            </div>
+            
+            <div class="container" style="margin-bottom: 50px">
+                <h2>2017/18 Membership Training</h2>
+                <br>
+                <p>
+                    신입생분들과 친해지고 싶지만 먼저 말을 걸면 이상하게 보일까 마음 졸였던 선배분들~<br>
+                    선배들과 가까워지고 싶지만, 선뜻 선톡 보내기 어려웠던 후배님들~<br>
+                    a-level 결과가 아직 나오지 않아 신입생환영회에 못 나와 아쉬웠던 신입생분들~<br>
+                    그냥 답답한 서울을 떠나 하루 재밌게 놀다 오고 싶으신 분들~
+                </p>
+                <p>이런 여러분들을 위해 CUKS에서 새내기 여러분과 재학생 모두가 함께 모여 친목을 도모할 수 있는 엠티를 가게 되었습니다!</p>
+                <p>엠티 게임부터 고기, 그리고 (제일 중요한) 술도 아주 많이 준비해 놓을 테니, 많은 참여 부탁드립니다.</p>
+                <p>인원파악을 위해 오실 수 있으신 분들은 Going을 꼭 눌러주세용!</p>
+                <p>
+                    날짜: 9월 2일 17:00 - 9월 3일<br>
+                    장소: 가평 강변마루 (경기 가평군 북면 가화로 688)<br>
+                    가격: 50000원<br>
+                    - 계좌이체: 441-910289-40607 하나은행 정동섭<br>
+                    - 현장 현금 결제 가능
+                </p>
+                <p>++++++++++++++++++++++</p>
+                <p>엠티 장소에 커미티와 함 먼저 가서 엠티 준비 도와주실 천사 신입생분들 찾고 있어여! 관심 있으신 분들 정동섭 학생에게 갠톡 주시면 감사하겠습니다.</p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+            &#169 Cambridge University Korean Society 2018
+            <span style="float: right">
+                <a href="https://www.facebook.com/groups/cuks.org.uk/">
+                    <i class="fa fa-facebook" style="font-size:24px;"></i>
+                </a>
+            </span>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="../../main.js"></script>
+        <script>window.onload = function() {slideAdder("20170902_2017_18_Membership_Training", 40); showSlides(1);};</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

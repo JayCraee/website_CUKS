@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="CUKS" content="Cambridge University Korean Society">
+        <meta name="author" content="Jae Hee Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>CUKS Cambridge University Korean Society</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- internal stylesheets -->
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header" id="navbar">
+            <div class="container">
+                <a href="../../index.html" class="logo">
+                    <img src="../../images/cuks_logo.jpg" style="width: 80px; height: 80px; transform: scale(1.5)">
+                    &nbsp;&nbsp;CUKS
+                </a>
+                <div class="header-right" style = "margin-top: 20px">
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../about_us.html">ABOUT US</a>
+                    <a class="active" href="../../events.html">EVENTS</a>
+                    <a href="../../sponsors.html">SPONSORS</a>
+                    <a href="../../jobs.html">JOBS</a>
+                    <a href="../../join_us.html">JOIN US</a>
+                    <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- body -->
+        <div id="content">
+            <div style="height: 500px; margin-bottom: 50px">
+                <img src="../../images/sample_event.jpg" style="height: 500px; width: 100%; overflow: hidden">
+            </div>
+            
+            <div class="container event-slide-all" style="margin-bottom: 50px; box-sizing: border-box">
+                
+                <div id="event-container" class="event-slide-container"></div>
+                
+                <div id="event-dot" style="text-align: center"></div>
+                
+            </div>
+            
+            <div class="container" style="margin-bottom: 50px">
+                <h2>Bowling Night</h2>
+                <br>
+                <p>안녕하세요. 페북에서 보신분들도 계시겠지만, 쿡스에서 Easter Term 시작 전 일요일인 2018.04.22에 볼링 이벤트를 진행합니다! 가장 바쁘고 스트레스가 많은 Easter Term 직전에 쿡스멤버들과 함께 볼링치면서 좋은 시간 보낼 수 있는 기회가 될 것 같습니다. 오후 7시반부터 3게임을 진행 할 예정이며, 가장 높은 점수를 획득하신 Top 3 Scorer분들을 위한 푸짐한 상품이 준비되어 있으니 많은 참여부탁드리겠습니다. 관심 있으신 분들은 이 링크 통해서 Sign up 해주시면 감사하겠습니다!</p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSetkIl2k63MpcC2YuJVibBIYzi3yS9st6hb-9LG-G65Yqr7LA/viewform?c=0&w=1">https://docs.google.com/forms/d/e/1FAIpQLSetkIl2k63MpcC2YuJVibBIYzi3yS9st6hb-9LG-G65Yqr7LA/viewform?c=0&amp;w=1</a></p>
+                <p>
+                    장소: Tenpin Bowling Cambridge<br>
+                    날짜: 2018.04.22 (일)<br>
+                    시간: 19:30 - 22:30 (3게임 진행 예정)<br>
+                    가격: Member: £15, Non-member: £18
+                </p>
+                <p>
+                    Come play bowling before starting Easter term!<br>
+                    Top 3 scorers will be awarded with special prizes!
+                </p>
+                <p>
+                    Cost for 3 games:<br>
+                    Members: £15<br>
+                    Non-members: £18
+                </p>
+                <p>
+                    If you wish to attend, please fill in the following form:<br>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSetkIl2k63MpcC2YuJVibBIYzi3yS9st6hb-9LG-G65Yqr7LA/viewform?c=0&w=1">https://docs.google.com/forms/d/e/1FAIpQLSetkIl2k63MpcC2YuJVibBIYzi3yS9st6hb-9LG-G65Yqr7LA/viewform?c=0&amp;w=1</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+            &#169 Cambridge University Korean Society 2018
+            <span style="float: right">
+                <a href="https://www.facebook.com/groups/cuks.org.uk/">
+                    <i class="fa fa-facebook" style="font-size:24px;"></i>
+                </a>
+            </span>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="../../main.js"></script>
+        <script>window.onload = function() {slideAdder("20180422_CUKS_Bowling_Night", 1); showSlides(1);};</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

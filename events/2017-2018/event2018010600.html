@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="CUKS" content="Cambridge University Korean Society">
+        <meta name="author" content="Jae Hee Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>CUKS Cambridge University Korean Society</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- internal stylesheets -->
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header" id="navbar">
+            <div class="container">
+                <a href="../../index.html" class="logo">
+                    <img src="../../images/cuks_logo.jpg" style="width: 80px; height: 80px; transform: scale(1.5)">
+                    &nbsp;&nbsp;CUKS
+                </a>
+                <div class="header-right" style = "margin-top: 20px">
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../about_us.html">ABOUT US</a>
+                    <a class="active" href="../../events.html">EVENTS</a>
+                    <a href="../../sponsors.html">SPONSORS</a>
+                    <a href="../../jobs.html">JOBS</a>
+                    <a href="../../join_us.html">JOIN US</a>
+                    <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- body -->
+        <div id="content">
+            <div style="height: 500px; margin-bottom: 50px">
+                <img src="../../images/sample_event.jpg" style="height: 500px; width: 100%; overflow: hidden">
+            </div>
+            
+            <div class="container event-slide-all" style="margin-bottom: 50px; box-sizing: border-box">
+                
+                <div id="event-container" class="event-slide-container"></div>
+                
+                <div id="event-dot" style="text-align: center"></div>
+                
+            </div>
+            
+            <div class="container" style="margin-bottom: 50px">
+                <h2>Cambridge Alumni Society Reception</h2>
+                <br>
+                <p>
+                    2018년 케임브리지 동문회 일시 / 장소입니다.
+                </p>
+                <p>
+                    일시<br>
+                    2018년 1월 6일 (토) 오후 5시 30분
+                </p>
+                <p>
+                    장소<br>
+                    베스트 웨스턴 프리미어 강남 호텔 다이아몬드 홀<br>
+                    서울 강남구 봉은사로 139 (논현동 205-9 )<br>
+                    * 무료 주차 가능<br>
+                    * (02) 6474 - 2000 
+                </p>
+                <p>
+                    교통편<br>
+                    지하철 9호선 신논현역 3번 출구로 나오셔서 봉은사로를 타고 약 500미터정도 걸어 올라오시면 됩니다.
+                </p>
+                <p>
+                    참가비<br>
+                    (동문) 50,000원 / (재학생) 30,000원 (현장에서 현금 납부)
+                </p>
+                <p>
+                    주최<br>
+                    케임브리지대학교 총동문회
+                </p>
+                <p>
+                    원활한 행사를 위하여, 다음 RSVP 링크로 이동하셔서 참석 여부 확인 부탁 드리겠습니다.
+                </p>
+                <p>
+                    RSVP<br>
+                    <a href="https://goo.gl/forms/Ymot0ywXYGALF7aY2">https://goo.gl/forms/Ymot0ywXYGALF7aY2</a>
+                </p>
+                <p>
+                    *******
+                </p>
+                <p>
+                    2018 Cambridge University Annual reception
+                </p>
+                <p>
+                    Date<br>
+                    06th January 2018 (Sat) 05:30 PM
+                </p>
+                <p>
+                    Venue<br>
+                    Diamond Hall, Best Western Premier Gang Nam Hotel.<br>
+                    139, Bongeunsa-ro, Gangnam-gu, Seoul, 06122, Korea<br>
+                    * Free parking available<br>
+                    * (02) 6474 – 2000
+                </p>
+                <p>
+                    Traffic<br>
+                    5 Minutes walking distance from Sinnonhyeon Station exit no.3 (Line 9)
+                </p>
+                <p>
+                    Ticket<br>
+                    (Alumni) 50,000 KRW / (Current student) 30,000 KRW (Cash at the door)
+                </p>
+                <p>
+                    Co-host<br>
+                    Cambridge Alumni Society Korea
+                </p>
+                <p>
+                    All are required to register for the attendance on our RSVP link
+                </p>
+                <p>
+                    RSVP<br>
+                    <a href="https://goo.gl/forms/Ymot0ywXYGALF7aY2">https://goo.gl/forms/Ymot0ywXYGALF7aY2</a>
+                </p>
+                <p>
+                    CUKS Committee<br>
+                    2017-18
+                </p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+            &#169 Cambridge University Korean Society 2018
+            <span style="float: right">
+                <a href="https://www.facebook.com/groups/cuks.org.uk/">
+                    <i class="fa fa-facebook" style="font-size:24px;"></i>
+                </a>
+            </span>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="../../main.js"></script>
+        <script>window.onload = function() {slideAdder("20180106_Cambridge_Alumni_Society_Reception", 1); showSlides(1);};</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

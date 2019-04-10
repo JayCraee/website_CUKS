@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -28,9 +28,9 @@
                     <a href="index.html">HOME</a>
                     <a href="about_us.html">ABOUT US</a>
                     <a href="events.html">EVENTS</a>
-                    <a class="active" href="#">SPONSORS</a>
+                    <a href="sponsors.html">SPONSORS</a>
                     <!-- <a href="jobs.html">JOBS</a> -->
-                    <a href="contact_us.html">CONTACT US</a>
+                    <a class="active" href="#">CONTACT US</a>
                     <a href="javascript:void(0);" class="dropdown-icon" onclick="dropdown()">
                         <i class="fa fa-bars"></i>
                     </a>
@@ -39,69 +39,52 @@
         </div>
         
         <!-- body -->
-        <div id="content" style="margin-bottom: 50px">
+        <div id="content">
             <div style="height: 500px; margin-bottom: 50px">
                 <img src="images/main.jpg" style="height: 500px; width: 100%; overflow: hidden">
             </div>
 
-            <div class="container">
-                <h2>Sponsors</h2>
-                <br>
-                <table>
-                    <tr>
-                        <td><img src="images/cambridge_logo_full.jpg" style="width: 300px"></td>
-                        <td width="600px">
-                            <b>Cambridge Alumni Society of Korea</b><br>
-                            케임브리지 한국 동문회<br>
-                            <a href="www.camkoalumni.com">www.camkoalumni.com</a>
-                        </td>
-                    </tr>
-                    <!--<tr>
-        <td><img src="images/cambridge_logo_full.jpg" style="width: 300px"></td>
-        <td>
-            <b>Cambridge Alumni Society of Korea</b><br>
-            케임브리지 한국 동문회<br>
-            <a href="www.camkoalumni.com">www.camkoalumni.com</a>
-        </td>
-    </tr>
-    <tr>
-        <td><img src="images/cambridge_logo_full.jpg" style="width: 300px"></td>
-        <td>
-            <b>Cambridge Alumni Society of Korea</b><br>
-            케임브리지 한국 동문회<br>
-            <a href="www.camkoalumni.com">www.camkoalumni.com</a>
-        </td>
-    </tr>
-    <tr>
-        <td><img src="images/cambridge_logo_full.jpg" style="width: 300px"></td>
-        <td>
-            <b>Cambridge Alumni Society of Korea</b><br>
-            케임브리지 한국 동문회<br>
-            <a href="www.camkoalumni.com">www.camkoalumni.com</a>
-        </td>
-    </tr>
-    <tr>
-        <td><img src="images/cambridge_logo_full.jpg" style="width: 300px"></td>
-        <td>
-            <b>Cambridge Alumni Society of Korea</b><br>
-            케임브리지 한국 동문회<br>
-            <a href="www.camkoalumni.com">www.camkoalumni.com</a>
-        </td>
-    </tr>-->
-                </table>
-            </div>
-            <div class="container">
-                <br>
-                <table>
-                    <tr>
-                        <td><img src="images/LG_Chem_logo.jpg" style="width: 300px"></td>
-                        <td width="600px">
-                            <b>LG Chem</b><br>
-                            LG 화학<br>
-                            <a href="www.lgchem.com/global/main">www.lgchem.com </a>
-                        </td">
-                    </tr>
-                </table>
+            <div class="container" style="margin-bottom: 50px">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        Please contact us at <b>support@cuks.org.uk</b>. Thank you for your inquiry. We will get in touch with you within 5 business days.<br><br>
+                        <form action="mailto:support@cuks.org.uk" method="post" enctype="text/plain" onsubmit="this.submit(); this.reset(); emailSent(); return false;">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" id="name" name="name" placeholder="Name">
+                                    <br>
+                                    <input type="text" id="email" name="email" placeholder="Email">
+                                    <br>
+                                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                                </div>
+                                <div class="col-md-6">
+                                    <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" id="emailSent" style="color: limegreen"></div>
+                            </div>
+                            <div class="row"style="float: right">
+                                <div class="col-md-12">
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 col-sm-12" style="text-align: right">
+                        <h5><b>OTHER CONTACTS</b></h5>
+                        <br>
+                        <b>SPONSORSHIP AND COLLABORATION</b><br>
+                        president@cuks.org.uk<br>
+                        <br>
+                        <b>CAREERS AND RECRUITMENT</b><br>
+                        careers@cuks.org.uk<br>
+                        <br>
+                        <b>WEBPAGE NAVIGATION AND IT ISSUES</b><br>
+                        admin@cuks.org.uk
+                    </div>
+                </div>
             </div>
         </div>
 
